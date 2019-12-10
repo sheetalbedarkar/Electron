@@ -1,0 +1,25 @@
+{
+  "name": "calculatorapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "build": "rimraf calculator-app-* && electron-packager . --platform=darwin,linux,win32 --arch=x64",
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "browser-window": "^0.4.0",
+    "crashreporter": "^1.1.0",
+    "electron": "^7.1.2",
+    "electron-packager": "^14.1.1",
+    "electron-reload": "^1.5.0",
+    "jquery": "^3.4.1"
+  },
+  "devDependencies": {
+    "electron-package": "^0.1.0",
+    "rimraf": "^3.0.0"
+  }
+}
